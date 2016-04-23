@@ -110,6 +110,8 @@ namespace RVO
                 sphere.transform.localScale = new Vector3(5f, 5f, 5f);
                 goals.Add(-Simulator.Instance.getAgentPosition(i));
                 agentSpheres.Add(sphere);
+
+                //Testing the part
             }
         }
 
